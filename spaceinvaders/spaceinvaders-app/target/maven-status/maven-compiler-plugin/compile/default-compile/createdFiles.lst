@@ -1,0 +1,7 @@
+org\spaceinvaders\app\Game$KeyInputHandler.class
+org\spaceinvaders\app\ShipEntity.class
+org\spaceinvaders\app\Game.class
+org\spaceinvaders\app\AlienEntity.class
+org\spaceinvaders\app\Entity.class
+org\spaceinvaders\app\Game$1.class
+org\spaceinvaders\app\ShotEntity.class

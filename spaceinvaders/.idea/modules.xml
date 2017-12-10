@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spaceinvaders.iml" filepath="$PROJECT_DIR$/spaceinvaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spaceinvaders-app/spaceinvaders-app.iml" filepath="$PROJECT_DIR$/spaceinvaders-app/spaceinvaders-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spaceinvaders-sprites/spaceinvaders-sprites.iml" filepath="$PROJECT_DIR$/spaceinvaders-sprites/spaceinvaders-sprites.iml" />
+    </modules>
+  </component>
+</project>
