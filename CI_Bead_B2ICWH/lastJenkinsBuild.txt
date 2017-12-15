@@ -1,0 +1,353 @@
+Started by user admin
+Building in workspace C:\Users\Balint\.jenkins\workspace\HomeWork
+[HomeWork] $ cmd.exe /C "mvn clean install && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for spcinv:spaceinvaders-app:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ spcinv:spaceinvaders:0.0.1-SNAPSHOT, C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml, line 48, column 21
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:findbugs-maven-plugin is missing. @ spcinv:spaceinvaders:0.0.1-SNAPSHOT, C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml, line 118, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ spcinv:spaceinvaders:0.0.1-SNAPSHOT, C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml, line 92, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for spcinv:spaceinvaders-sprites:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ spcinv:spaceinvaders:0.0.1-SNAPSHOT, C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml, line 48, column 21
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:findbugs-maven-plugin is missing. @ spcinv:spaceinvaders:0.0.1-SNAPSHOT, C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml, line 118, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ spcinv:spaceinvaders:0.0.1-SNAPSHOT, C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml, line 92, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for spcinv:spaceinvaders:pom:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 48, column 21
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:findbugs-maven-plugin is missing. @ line 118, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ line 92, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] spaceinvaders
+[INFO] spaceinvaders-sprites
+[INFO] spaceinvaders-app
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spaceinvaders 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spaceinvaders ---
+[INFO] Deleting C:\Users\Balint\.jenkins\workspace\HomeWork\target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle-aggregate (checkstyle) @ spaceinvaders ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] --- findbugs-maven-plugin:3.0.5:findbugs (default) @ spaceinvaders ---
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura (default) > [cobertura]test @ spaceinvaders >>>
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle-aggregate (checkstyle) @ spaceinvaders ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] --- findbugs-maven-plugin:3.0.5:findbugs (default) @ spaceinvaders ---
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument (default) @ spaceinvaders ---
+[INFO] Skipping cobertura mojo for project with packaging type 'pom'
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura (default) < [cobertura]test @ spaceinvaders <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:cobertura (default) @ spaceinvaders ---
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (default) @ spaceinvaders ---
+[INFO] Building jar: C:\Users\Balint\.jenkins\workspace\HomeWork\target\spaceinvaders-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spaceinvaders ---
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\pom.xml to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders\0.0.1-SNAPSHOT\spaceinvaders-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\target\spaceinvaders-0.0.1-SNAPSHOT-jar-with-dependencies.jar to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders\0.0.1-SNAPSHOT\spaceinvaders-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spaceinvaders-sprites 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spaceinvaders-sprites ---
+[INFO] Deleting C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle-aggregate (checkstyle) @ spaceinvaders-sprites ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spaceinvaders-sprites ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spaceinvaders-sprites ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\classes
+[WARNING] /C:/Users/Balint/.jenkins/workspace/HomeWork/spaceinvaders-sprites/src/main/java/org/spaceinvaders/app/SpriteStore.java: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\src\main\java\org\spaceinvaders\app\SpriteStore.java uses unchecked or unsafe operations.
+[WARNING] /C:/Users/Balint/.jenkins/workspace/HomeWork/spaceinvaders-sprites/src/main/java/org/spaceinvaders/app/SpriteStore.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- findbugs-maven-plugin:3.0.5:findbugs (default) @ spaceinvaders-sprites ---
+[INFO] Fork Value is true
+     [java] Warnings generated: 1
+[INFO] Done FindBugs Analysis....
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spaceinvaders-sprites ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spaceinvaders-sprites ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spaceinvaders-sprites ---
+[INFO] Surefire report directory: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.spaceinvaders.app.SpriteStoreTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.38 sec
+Running org.spaceinvaders.app.SpriteTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ spaceinvaders-sprites ---
+[INFO] Building jar: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\spaceinvaders-sprites-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura (default) > [cobertura]test @ spaceinvaders-sprites >>>
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle-aggregate (checkstyle) @ spaceinvaders-sprites ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spaceinvaders-sprites ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spaceinvaders-sprites ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- findbugs-maven-plugin:3.0.5:findbugs (default) @ spaceinvaders-sprites ---
+[INFO] Fork Value is true
+     [java] Warnings generated: 1
+[INFO] Done FindBugs Analysis....
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument (default) @ spaceinvaders-sprites ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Saved information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spaceinvaders-sprites ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spaceinvaders-sprites ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spaceinvaders-sprites ---
+[INFO] Surefire report directory: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.spaceinvaders.app.SpriteStoreTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.8 sec
+Running org.spaceinvaders.app.SpriteTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+[INFO] Cobertura: Loaded information on 2 classes.
+[INFO] Cobertura: Saved information on 2 classes.
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura (default) < [cobertura]test @ spaceinvaders-sprites <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:cobertura (default) @ spaceinvaders-sprites ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 2 classes.
+Report time: 364ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 2 classes.
+Report time: 175ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (default) @ spaceinvaders-sprites ---
+[INFO] Building jar: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\spaceinvaders-sprites-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spaceinvaders-sprites ---
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\spaceinvaders-sprites-0.0.1-SNAPSHOT.jar to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders-sprites\0.0.1-SNAPSHOT\spaceinvaders-sprites-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\pom.xml to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders-sprites\0.0.1-SNAPSHOT\spaceinvaders-sprites-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\spaceinvaders-sprites-0.0.1-SNAPSHOT-jar-with-dependencies.jar to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders-sprites\0.0.1-SNAPSHOT\spaceinvaders-sprites-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spaceinvaders-app 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spaceinvaders-app ---
+[INFO] Deleting C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle-aggregate (checkstyle) @ spaceinvaders-app ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spaceinvaders-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spaceinvaders-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\classes
+[WARNING] /C:/Users/Balint/.jenkins/workspace/HomeWork/spaceinvaders-app/src/main/java/org/spaceinvaders/app/Game.java: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\src\main\java\org\spaceinvaders\app\Game.java uses unchecked or unsafe operations.
+[WARNING] /C:/Users/Balint/.jenkins/workspace/HomeWork/spaceinvaders-app/src/main/java/org/spaceinvaders/app/Game.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- findbugs-maven-plugin:3.0.5:findbugs (default) @ spaceinvaders-app ---
+[INFO] Fork Value is true
+     [java] Warnings generated: 3
+[INFO] Done FindBugs Analysis....
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spaceinvaders-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spaceinvaders-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spaceinvaders-app ---
+[INFO] Surefire report directory: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.spaceinvaders.app.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ spaceinvaders-app ---
+[INFO] Building jar: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\spaceinvaders-app-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura (default) > [cobertura]test @ spaceinvaders-app >>>
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle-aggregate (checkstyle) @ spaceinvaders-app ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spaceinvaders-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spaceinvaders-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- findbugs-maven-plugin:3.0.5:findbugs (default) @ spaceinvaders-app ---
+[INFO] Fork Value is true
+     [java] Warnings generated: 3
+[INFO] Done FindBugs Analysis....
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument (default) @ spaceinvaders-app ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Saved information on 7 classes.
+[INFO] Cobertura: Saved information on 7 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spaceinvaders-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spaceinvaders-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spaceinvaders-app ---
+[INFO] Surefire report directory: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.spaceinvaders.app.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura (default) < [cobertura]test @ spaceinvaders-app <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:cobertura (default) @ spaceinvaders-app ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 7 classes.
+Report time: 490ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 7 classes.
+Report time: 376ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Executing aggregate cobertura:report for spaceinvaders
+[INFO] Cobertura: Loaded information on 2 classes.
+[INFO] Cobertura: Loaded information on 7 classes.
+[INFO] Saving aggregate cobertura information in C:\Users\Balint\.jenkins\workspace\HomeWork\target\cobertura\cobertura.ser
+[INFO] Cobertura: Saved information on 9 classes.
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 9 classes.
+Report time: 470ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 9 classes.
+Report time: 284ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (default) @ spaceinvaders-app ---
+[INFO] Building jar: C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\spaceinvaders-app-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ spaceinvaders-app ---
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\spaceinvaders-app-0.0.1-SNAPSHOT.jar to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders-app\0.0.1-SNAPSHOT\spaceinvaders-app-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\pom.xml to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders-app\0.0.1-SNAPSHOT\spaceinvaders-app-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\spaceinvaders-app-0.0.1-SNAPSHOT-jar-with-dependencies.jar to C:\Users\Balint\.m2\repository\spcinv\spaceinvaders-app\0.0.1-SNAPSHOT\spaceinvaders-app-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] spaceinvaders ...................................... SUCCESS [ 22.221 s]
+[INFO] spaceinvaders-sprites .............................. SUCCESS [ 23.494 s]
+[INFO] spaceinvaders-app .................................. SUCCESS [ 26.013 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:11 min
+[INFO] Finished at: 2017-12-14T17:24:29+01:00
+[INFO] Final Memory: 49M/323M
+[INFO] ------------------------------------------------------------------------
+[CHECKSTYLE] Collecting checkstyle analysis files...
+[CHECKSTYLE] Searching for all files in C:\Users\Balint\.jenkins\workspace\HomeWork that match the pattern **/checkstyle-result.xml
+[CHECKSTYLE] Parsing 1 file in C:\Users\Balint\.jenkins\workspace\HomeWork
+[CHECKSTYLE] Successfully parsed file C:\Users\Balint\.jenkins\workspace\HomeWork\target\checkstyle-result.xml with 1346 unique warnings and 0 duplicates.
+Skipping warnings blame since Git is the only supported SCM up to now.%n
+[CHECKSTYLE] Computing warning deltas based on reference build #5
+[FINDBUGS] Collecting findbugs analysis files...
+[FINDBUGS] Searching for all files in C:\Users\Balint\.jenkins\workspace\HomeWork that match the pattern **/findbugsXml.xml
+[FINDBUGS] Parsing 2 files in C:\Users\Balint\.jenkins\workspace\HomeWork
+[FINDBUGS] Successfully parsed file C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-app\target\findbugsXml.xml with 3 unique warnings and 0 duplicates.
+[FINDBUGS] Successfully parsed file C:\Users\Balint\.jenkins\workspace\HomeWork\spaceinvaders-sprites\target\findbugsXml.xml with 4 unique warnings and 0 duplicates.
+Skipping warnings blame since Git is the only supported SCM up to now.%n
+[FINDBUGS] Computing warning deltas based on reference build #5
+[Cobertura] Publishing Cobertura coverage report...
+
+[Cobertura] Publishing Cobertura coverage results...
+
+[Cobertura] Cobertura coverage report found.
+
+Recording test results
+Finished: SUCCESS
